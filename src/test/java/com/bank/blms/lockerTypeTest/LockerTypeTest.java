@@ -36,6 +36,7 @@ public class LockerTypeTest extends samplebaseclass{
 
 		// go to manage Locker and check the created locker
 		UtilityClassObject.getTest().log(Status.INFO, "Validating success msg for locker creation");
+		Thread.sleep(1000);
 		String actmsg = wlib.switchToAlertText(driver);
 		boolean status = actmsg.contains(msg);
 		Assert.assertEquals(status, true);
