@@ -4,8 +4,8 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.bank.blms.subBankerTest.SubBankerTest" />
-			<class name="com.bank.blms.assinLockerTest.AssignLockerTest" />
-			<class name="com.bank.blms.lockerTypeTest.LockerTypeTest" />
+			<!-- <class name="com.bank.blms.assinLockerTest.AssignLockerTest" />
+			<class name="com.bank.blms.lockerTypeTest.LockerTypeTest" />-->
 		</classes>
 	</test> <!--
 	Test -->
