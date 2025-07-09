@@ -23,6 +23,7 @@ public class LockerTypeTest extends samplebaseclass{
 		String price = elib.getDataFromExcel("BLMS", 1, 3);	
 		String msg = elib.getDataFromExcel("BLMS", 1, 4); 
 
+		wlib.waitPageToLoad(driver);
 		// create Locker Type
 		UtilityClassObject.getTest().log(Status.INFO, "Create Locker Type");
 		HomePage hp = new HomePage(driver);
@@ -55,6 +56,7 @@ public class LockerTypeTest extends samplebaseclass{
 		String price = elib.getDataFromExcel("BLMS", 1, 3);
 		String msg = elib.getDataFromExcel("BLMS", 1, 4);
 
+		wlib.waitPageToLoad(driver);
 		// create Locker Type
 		UtilityClassObject.getTest().log(Status.INFO, "Create Locker Type");
 		wlib.waitPageToLoad(driver);
@@ -95,5 +97,4 @@ public class LockerTypeTest extends samplebaseclass{
 		wlib.switchToAlertAccept(driver);
 
 	}
-
 }

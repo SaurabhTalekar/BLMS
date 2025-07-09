@@ -6,9 +6,11 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.Status;
 import com.comcast.crm.PomPages.AddLockerFormPage;
 import com.comcast.crm.PomPages.HomePage;
 import com.comcast.crm.baseclasstest.samplebaseclass;
+import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 
 @Listeners(com.comcast.crm.Listenerutility.ListenerImplimentationClass.class)
 public class AssignLockerTest extends samplebaseclass {
@@ -17,6 +19,7 @@ public class AssignLockerTest extends samplebaseclass {
 	public void assignLocker() throws Throwable {
 
 		// read data from excel file
+		UtilityClassObject.getTest().log(Status.INFO, "Reading data from excel");  //===>to print Low Level log in Extent Report
 		String fullname = elib.getDataFromExcel("BLMS", 7, 2) + jlib.getRandonNumber();
 		String email = elib.getDataFromExcel("BLMS", 7, 3);
 		String mobile = elib.getDataFromExcel("BLMS", 7, 4);
@@ -40,6 +43,7 @@ public class AssignLockerTest extends samplebaseclass {
 		hp.getAssignLocker();
 		hp.getAssignlockeradd();
 
+		UtilityClassObject.getTest().log(Status.INFO, "Adding Locker form entering details");  //===>to print Low Level log in Extent Report
 		AddLockerFormPage acfp = new AddLockerFormPage(driver);
 		acfp.getFullname(fullname);
 		acfp.getEmail(email);
@@ -66,6 +70,7 @@ public class AssignLockerTest extends samplebaseclass {
 		driver.switchTo().alert().accept();
 		
 		// Validation
+		UtilityClassObject.getTest().log(Status.INFO, "Validatin the success msg");  //===>to print Low Level log in Extent Report
 		SoftAssert soft = new SoftAssert();
 		boolean status = actmsg.contains(msg);
 		soft.assertEquals(status, true);
@@ -78,6 +83,7 @@ public class AssignLockerTest extends samplebaseclass {
 	public void deleteAssignedLocker() throws Throwable {
 
 		// read data from excel file
+		UtilityClassObject.getTest().log(Status.INFO, "Reading data from excel");  //===>to print Low Level log in Extent Report
 		String fullname = elib.getDataFromExcel("BLMS", 7, 2) + jlib.getRandonNumber();
 		String email = elib.getDataFromExcel("BLMS", 7, 3);
 		String mobile = elib.getDataFromExcel("BLMS", 7, 4);
@@ -102,6 +108,7 @@ public class AssignLockerTest extends samplebaseclass {
 		hp.getAssignLocker();
 		hp.getAssignlockeradd();
 
+		UtilityClassObject.getTest().log(Status.INFO, "Adding Locker form entering details");
 		AddLockerFormPage acfp = new AddLockerFormPage(driver);
 		acfp.getFullname(fullname);
 		acfp.getEmail(email);
@@ -122,6 +129,7 @@ public class AssignLockerTest extends samplebaseclass {
 		acfp.getSubmitbtn();
 
 		// go to manage Locker and check the created locker
+		UtilityClassObject.getTest().log(Status.INFO, "Validating success msg");
 		String actmsg = wlib.switchToAlertText(driver);
 		if (actmsg.contains(msg)) {
 			driver.switchTo().alert().accept();
@@ -139,8 +147,10 @@ public class AssignLockerTest extends samplebaseclass {
 		hp.getAssignlockermanage();
 
 		// delete the assign Locker
+		UtilityClassObject.getTest().log(Status.INFO, "Deleting assign Locker");
 		driver.findElement(By.xpath("//td[text()='" + lockerno + "']/../th/a[@title='Delete this record']")).click();
 
+		UtilityClassObject.getTest().log(Status.INFO, "Validating the detele msg");
 		String actmsg1 = wlib.switchToAlertText(driver);
 		boolean status = actmsg1.contains(msg1);
 		Assert.assertEquals(status, true);
