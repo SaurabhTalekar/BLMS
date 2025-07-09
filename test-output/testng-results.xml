@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="10" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T14:26:14 IST" name="Group_Suite" finished-at="2025-07-09T14:26:37 IST" duration-ms="23618">
+    <groups>
+      <group name="Smoke">
+        <method signature="AssignLockerTest.assignLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@66d18979]" name="assignLocker" class="com.bank.blms.assinLockerTest.AssignLockerTest"/>
+        <method signature="LockerTypeTest.createLockerType()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@bccb269]" name="createLockerType" class="com.bank.blms.lockerTypeTest.LockerTypeTest"/>
+        <method signature="SubBankerTest.createSubBanker()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" name="createSubBanker" class="com.bank.blms.subBankerTest.SubBankerTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-07-09T14:26:14 IST" name="Test" finished-at="2025-07-09T14:26:37 IST" duration-ms="23618">
+      <class name="com.bank.blms.assinLockerTest.AssignLockerTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@66d18979]" started-at="2025-07-09T14:26:22 IST" name="configBC" finished-at="2025-07-09T14:26:24 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@66d18979]" started-at="2025-07-09T14:26:24 IST" name="configBM" finished-at="2025-07-09T14:26:26 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="assignLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@66d18979]" started-at="2025-07-09T14:26:26 IST" name="assignLocker" finished-at="2025-07-09T14:26:30 IST" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignLocker -->
+        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@66d18979]" started-at="2025-07-09T14:26:30 IST" name="configAF" finished-at="2025-07-09T14:26:31 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@66d18979]" started-at="2025-07-09T14:26:31 IST" name="configAC" finished-at="2025-07-09T14:26:31 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.bank.blms.assinLockerTest.AssignLockerTest -->
+      <class name="com.bank.blms.subBankerTest.SubBankerTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:13 IST" name="configBS" finished-at="2025-07-09T14:26:14 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:14 IST" name="configBC" finished-at="2025-07-09T14:26:16 IST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:16 IST" name="configBM" finished-at="2025-07-09T14:26:19 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createSubBanker()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:19 IST" name="createSubBanker" finished-at="2025-07-09T14:26:21 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSubBanker -->
+        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:21 IST" name="configAF" finished-at="2025-07-09T14:26:22 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:22 IST" name="configAC" finished-at="2025-07-09T14:26:22 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@43c1b556]" started-at="2025-07-09T14:26:37 IST" name="configAS" finished-at="2025-07-09T14:26:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.bank.blms.subBankerTest.SubBankerTest -->
+      <class name="com.bank.blms.lockerTypeTest.LockerTypeTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@bccb269]" started-at="2025-07-09T14:26:31 IST" name="configBC" finished-at="2025-07-09T14:26:33 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@bccb269]" started-at="2025-07-09T14:26:33 IST" name="configBM" finished-at="2025-07-09T14:26:35 IST" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createLockerType()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@bccb269]" started-at="2025-07-09T14:26:35 IST" name="createLockerType" finished-at="2025-07-09T14:26:36 IST" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLockerType -->
+        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@bccb269]" started-at="2025-07-09T14:26:36 IST" name="configAF" finished-at="2025-07-09T14:26:37 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAF -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@bccb269]" started-at="2025-07-09T14:26:37 IST" name="configAC" finished-at="2025-07-09T14:26:37 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.bank.blms.lockerTypeTest.LockerTypeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Group_Suite -->
+</testng-results>
