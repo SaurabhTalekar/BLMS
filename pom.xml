@@ -5,13 +5,13 @@
 	<groupId>com.testyantra</groupId>
 	<artifactId>BankManagementBLM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-<properties>
-  <maven.compiler.source>17</maven.compiler.source>
-  <maven.compiler.target>17</maven.compiler.target>
-</properties>
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
 	<dependencies>
-
-
 		<!--
     https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -68,14 +68,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.30</version> <!-- or latest -->
-			<scope>provided</scope>
-		</dependency>
-
+		
 	</dependencies>
 
 	<profiles>
@@ -99,24 +92,5 @@
 			</build>
 		</profile>
 	</profiles>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.13.0</version>
-				<configuration>
-					<compilerArgs>
-						<arg>--add-exports</arg>
-						<arg>
-							jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
-						<arg>--add-opens</arg>
-						<arg>
-							jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
-					</compilerArgs>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
