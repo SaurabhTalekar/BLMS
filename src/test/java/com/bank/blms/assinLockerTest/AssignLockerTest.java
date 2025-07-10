@@ -131,6 +131,7 @@ public class AssignLockerTest extends samplebaseclass {
 		// go to manage Locker and check the created locker
 		UtilityClassObject.getTest().log(Status.INFO, "Validating success msg");
 		String actmsg = wlib.switchToAlertText(driver);
+		Thread.sleep(1000);
 		if (actmsg.contains(msg)) {
 			driver.switchTo().alert().accept();
 			System.out.println("Test case pass");
