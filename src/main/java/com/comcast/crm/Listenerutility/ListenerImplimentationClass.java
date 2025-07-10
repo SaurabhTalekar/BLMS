@@ -53,7 +53,7 @@ public class ListenerImplimentationClass implements ITestListener, ISuiteListene
 	@Override
 	public void onTestStart(ITestResult result) {
 		
-		System.out.println("=====" + result.getMethod().getMethodName() + "===ListenerImpClass===");
+		System.out.println("=====" + result.getMethod().getMethodName() + "==>Started<==ListenerImpClass===");
 		
 		//Createing test into ExtentReport
 		 test = report.createTest(result.getMethod().getMethodName());
@@ -63,7 +63,7 @@ public class ListenerImplimentationClass implements ITestListener, ISuiteListene
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		System.out.println("=====" + result.getMethod().getMethodName() + "====Ended=====ListenerImpClass=====");
+		System.out.println("=====" + result.getMethod().getMethodName() + "====Pass=====ListenerImpClass=====");
 		
 		test.log(Status.PASS, result.getMethod().getMethodName()+"===>Complited<====ListenerImpClass===");
 	}

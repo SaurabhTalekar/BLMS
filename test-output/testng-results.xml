@@ -1,65 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="10" passed="5" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T23:39:18 IST" name="Batch_Suite" finished-at="2025-07-09T23:41:21 IST" duration-ms="122889">
+  <suite started-at="2025-07-10T11:23:27 IST" name="Default suite" finished-at="2025-07-10T11:23:37 IST" duration-ms="10438">
     <groups>
-      <group name="Regression">
-        <method signature="AssignLockerTest.deleteAssignedLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" name="deleteAssignedLocker" class="com.bank.blms.assinLockerTest.AssignLockerTest"/>
-        <method signature="LockerTypeTest.deleteLockerType()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" name="deleteLockerType" class="com.bank.blms.lockerTypeTest.LockerTypeTest"/>
-        <method signature="SubBankerTest.deleteSubBanker()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" name="deleteSubBanker" class="com.bank.blms.subBankerTest.SubBankerTest"/>
-      </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="AssignLockerTest.assignLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" name="assignLocker" class="com.bank.blms.assinLockerTest.AssignLockerTest"/>
-        <method signature="LockerTypeTest.createLockerType()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" name="createLockerType" class="com.bank.blms.lockerTypeTest.LockerTypeTest"/>
-        <method signature="SubBankerTest.createSubBanker()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" name="createSubBanker" class="com.bank.blms.subBankerTest.SubBankerTest"/>
+        <method signature="AssignLockerTest.assignLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" name="assignLocker" class="com.bank.blms.assinLockerTest.AssignLockerTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-07-09T23:39:18 IST" name="Test" finished-at="2025-07-09T23:41:21 IST" duration-ms="122889">
+    <test started-at="2025-07-10T11:23:27 IST" name="Default test" finished-at="2025-07-10T11:23:37 IST" duration-ms="10438">
       <class name="com.bank.blms.assinLockerTest.AssignLockerTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:39:42 IST" name="configBC" finished-at="2025-07-09T23:39:43 IST" duration-ms="1502" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:26 IST" name="configBS" finished-at="2025-07-10T11:23:27 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:27 IST" name="configBC" finished-at="2025-07-10T11:23:29 IST" duration-ms="2111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:39:43 IST" name="configBM" finished-at="2025-07-09T23:39:57 IST" duration-ms="13482" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:29 IST" name="configBM" finished-at="2025-07-10T11:23:31 IST" duration-ms="1611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="assignLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:39:57 IST" name="assignLocker" finished-at="2025-07-09T23:40:01 IST" duration-ms="4347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assignLocker -->
-        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:40:01 IST" name="configAF" finished-at="2025-07-09T23:40:02 IST" duration-ms="1096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAF -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:40:02 IST" name="configBM" finished-at="2025-07-09T23:40:03 IST" duration-ms="923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="deleteAssignedLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:40:03 IST" name="deleteAssignedLocker" finished-at="2025-07-09T23:40:34 IST" duration-ms="30316" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="assignLocker()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:31 IST" name="assignLocker" finished-at="2025-07-10T11:23:36 IST" duration-ms="5315" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='19975']/../th/a[@title='Delete this record']"}
+              <![CDATA[no such alert
   (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e5098bcc8ddb73d1621ae952359b927, findElement {using=xpath, value=//td[text()='19975']/../th/a[@title='Delete this record']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65304/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e5098bcc8ddb73d1621ae952359b927]]>
+Command: [c56117e236bd9f64684e77c2a3f9fe99, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51204/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c56117e236bd9f64684e77c2a3f9fe99]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='19975']/../th/a[@title='Delete this record']"}
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
   (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e5098bcc8ddb73d1621ae952359b927, findElement {using=xpath, value=//td[text()='19975']/../th/a[@title='Delete this record']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65304/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e5098bcc8ddb73d1621ae952359b927
+Command: [c56117e236bd9f64684e77c2a3f9fe99, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51204/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c56117e236bd9f64684e77c2a3f9fe99
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,11 +55,11 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.bank.blms.assinLockerTest.AssignLockerTest.deleteAssignedLocker(AssignLockerTest.java:151)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1190)
+at com.comcast.crm.generic.webdriverutility.WebDriverUtility.switchToAlertText(WebDriverUtility.java:76)
+at com.bank.blms.assinLockerTest.AssignLockerTest.assignLocker(AssignLockerTest.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,95 +90,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteAssignedLocker -->
-        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:40:34 IST" name="configAF" finished-at="2025-07-09T23:40:36 IST" duration-ms="1761" status="PASS">
+        </test-method> <!-- assignLocker -->
+        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:36 IST" name="configAF" finished-at="2025-07-10T11:23:37 IST" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAF -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@36ebc363]" started-at="2025-07-09T23:40:36 IST" name="configAC" finished-at="2025-07-09T23:40:36 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:37 IST" name="configAC" finished-at="2025-07-10T11:23:37 IST" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-      </class> <!-- com.bank.blms.assinLockerTest.AssignLockerTest -->
-      <class name="com.bank.blms.subBankerTest.SubBankerTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:17 IST" name="configBS" finished-at="2025-07-09T23:39:18 IST" duration-ms="447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:18 IST" name="configBC" finished-at="2025-07-09T23:39:20 IST" duration-ms="2290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:20 IST" name="configBM" finished-at="2025-07-09T23:39:27 IST" duration-ms="6543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createSubBanker()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:27 IST" name="createSubBanker" finished-at="2025-07-09T23:39:30 IST" duration-ms="3550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createSubBanker -->
-        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:30 IST" name="configAF" finished-at="2025-07-09T23:39:31 IST" duration-ms="835" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAF -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:31 IST" name="configBM" finished-at="2025-07-09T23:39:32 IST" duration-ms="1349" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="deleteSubBanker()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:32 IST" name="deleteSubBanker" finished-at="2025-07-09T23:39:41 IST" duration-ms="8223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteSubBanker -->
-        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:41 IST" name="configAF" finished-at="2025-07-09T23:39:42 IST" duration-ms="923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAF -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:39:42 IST" name="configAC" finished-at="2025-07-09T23:39:42 IST" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.bank.blms.subBankerTest.SubBankerTest@75d4a5c2]" started-at="2025-07-09T23:41:21 IST" name="configAS" finished-at="2025-07-09T23:41:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.bank.blms.assinLockerTest.AssignLockerTest@557caf28]" started-at="2025-07-10T11:23:37 IST" name="configAS" finished-at="2025-07-10T11:23:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.bank.blms.subBankerTest.SubBankerTest -->
-      <class name="com.bank.blms.lockerTypeTest.LockerTypeTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:40:36 IST" name="configBC" finished-at="2025-07-09T23:40:38 IST" duration-ms="1747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:40:38 IST" name="configBM" finished-at="2025-07-09T23:41:10 IST" duration-ms="32674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createLockerType()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:41:10 IST" name="createLockerType" finished-at="2025-07-09T23:41:13 IST" duration-ms="2595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createLockerType -->
-        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:41:13 IST" name="configAF" finished-at="2025-07-09T23:41:14 IST" duration-ms="613" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAF -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:41:14 IST" name="configBM" finished-at="2025-07-09T23:41:15 IST" duration-ms="1728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="deleteLockerType()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:41:15 IST" name="deleteLockerType" finished-at="2025-07-09T23:41:19 IST" duration-ms="4080" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteLockerType -->
-        <test-method is-config="true" signature="configAF()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:41:19 IST" name="configAF" finished-at="2025-07-09T23:41:20 IST" duration-ms="970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAF -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.bank.blms.lockerTypeTest.LockerTypeTest@45752059]" started-at="2025-07-09T23:41:20 IST" name="configAC" finished-at="2025-07-09T23:41:21 IST" duration-ms="236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.bank.blms.lockerTypeTest.LockerTypeTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Batch_Suite -->
+      </class> <!-- com.bank.blms.assinLockerTest.AssignLockerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
